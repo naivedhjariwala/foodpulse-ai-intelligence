@@ -174,3 +174,4 @@ class CustomerSegmentation:
     def load(filepath: str) -> "CustomerSegmentation":
         """Loads serialized model."""
         return joblib.load(filepath)
+

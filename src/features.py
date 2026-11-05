@@ -250,3 +250,4 @@ def save_feature_engineer(fe: FoodPulseFeatureEngineer, filepath: str) -> None:
 def load_feature_engineer(filepath: str) -> FoodPulseFeatureEngineer:
     """Loads serialized feature engineer instance."""
     return joblib.load(filepath)
+

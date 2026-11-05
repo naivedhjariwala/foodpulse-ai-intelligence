@@ -119,3 +119,4 @@ def test_nlp_sentiment_analyzer():
     assert neg_res["sentiment_label"] == "Negative"
     assert neg_res["polarity_score"] < 0
     assert any("Late" in c or "Cold" in c or "Missing" in c for c in neg_res["detected_complaints"])
+

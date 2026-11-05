@@ -135,3 +135,4 @@ def run_pipeline(db_path: str = DEFAULT_DB_PATH, model_dir: str = MODEL_DIR) -> 
 
 if __name__ == "__main__":
     run_pipeline()
+

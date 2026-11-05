@@ -148,3 +148,4 @@ class ETARegressor:
     def load(filepath: str) -> "ETARegressor":
         """Loads serialized model."""
         return joblib.load(filepath)
+

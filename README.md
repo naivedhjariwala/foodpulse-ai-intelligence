@@ -256,3 +256,4 @@ Open your browser at `http://localhost:8501` to explore the live dashboard.
 ## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+

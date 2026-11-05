@@ -677,3 +677,4 @@ with tabs[5]:
 # Footer
 st.markdown("---")
 st.caption("FoodPulse: AI Delivery Intelligence & Prediction System (2025–2026) • Engineered with Python, Scikit-Learn, Pandas, Streamlit, SQL & Altair.")
+

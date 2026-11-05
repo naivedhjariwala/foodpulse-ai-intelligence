@@ -220,3 +220,4 @@ ANALYTICAL_QUERIES = {
         ORDER BY review_count DESC;
     """
 }
+

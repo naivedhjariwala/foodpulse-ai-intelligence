@@ -194,3 +194,4 @@ class DelayClassifier:
     def load(filepath: str) -> "DelayClassifier":
         """Loads serialized model."""
         return joblib.load(filepath)
+

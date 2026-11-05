@@ -165,3 +165,4 @@ class NLPSentimentAnalyzer:
     def load(filepath: str) -> "NLPSentimentAnalyzer":
         """Loads serialized model."""
         return joblib.load(filepath)
+
