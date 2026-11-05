@@ -1,0 +1,270 @@
+{
+  "dataset_summary": {
+    "total_orders": 12500,
+    "total_reviews": 4359,
+    "total_customers": 1200,
+    "total_restaurants": 35,
+    "total_couriers": 60,
+    "urban_hubs": [
+      "Manhattan Midtown & Downtown",
+      "Financial District & SoMa",
+      "The Loop & River North",
+      "Downtown & East Austin",
+      "City & West End"
+    ]
+  },
+  "eta_regressor_metrics": {
+    "primary_model": "gradient_boosting",
+    "mae": 2.884,
+    "rmse": 3.665,
+    "r2": 0.9418,
+    "benchmark_comparison": {
+      "gradient_boosting": {
+        "mae": 2.884,
+        "rmse": 3.665,
+        "r2": 0.9418
+      },
+      "random_forest": {
+        "mae": 3.534,
+        "rmse": 4.622,
+        "r2": 0.9074
+      },
+      "ridge": {
+        "mae": 3.68,
+        "rmse": 4.78,
+        "r2": 0.901
+      }
+    }
+  },
+  "delay_classifier_metrics": {
+    "primary_model": "gradient_boosting",
+    "precision": 0.7852,
+    "recall": 0.7952,
+    "f1_score": 0.7821,
+    "roc_auc": 0.8573,
+    "confusion_matrix": [
+      [
+        1509,
+        77,
+        73
+      ],
+      [
+        238,
+        141,
+        0
+      ],
+      [
+        124,
+        0,
+        338
+      ]
+    ],
+    "classification_report": {
+      "mild_delay": {
+        "precision": 0.806520577231427,
+        "recall": 0.9095840867992767,
+        "f1-score": 0.854957507082153,
+        "support": 1659.0
+      },
+      "on_time": {
+        "precision": 0.6467889908256881,
+        "recall": 0.3720316622691293,
+        "f1-score": 0.4723618090452261,
+        "support": 379.0
+      },
+      "severe_delay": {
+        "precision": 0.8223844282238443,
+        "recall": 0.7316017316017316,
+        "f1-score": 0.7743413516609393,
+        "support": 462.0
+      },
+      "accuracy": 0.7952,
+      "macro avg": {
+        "precision": 0.7585646654269865,
+        "recall": 0.6710724935567125,
+        "f1-score": 0.7005535559294395,
+        "support": 2500.0
+      },
+      "weighted avg": {
+        "precision": 0.7852369083957156,
+        "recall": 0.7952,
+        "f1-score": 0.7820581337379147,
+        "support": 2500.0
+      }
+    },
+    "benchmark_comparison": {
+      "gradient_boosting": {
+        "precision": 0.7852,
+        "recall": 0.7952,
+        "f1_score": 0.7821,
+        "roc_auc": 0.8573
+      },
+      "random_forest": {
+        "precision": 0.7615,
+        "recall": 0.7136,
+        "f1_score": 0.7243,
+        "roc_auc": 0.8449
+      },
+      "logistic_regression": {
+        "precision": 0.7357,
+        "recall": 0.634,
+        "f1_score": 0.6458,
+        "roc_auc": 0.8239
+      }
+    }
+  },
+  "customer_segmentation": {
+    "n_clusters": 4,
+    "silhouette_scores": {
+      "2": 0.1336,
+      "3": 0.1324,
+      "4": 0.1271,
+      "5": 0.1117,
+      "6": 0.1126,
+      "7": 0.1151
+    },
+    "elbow_inertia": {
+      "2": 8217.08,
+      "3": 7318.76,
+      "4": 6711.4,
+      "5": 6304.6,
+      "6": 5960.53,
+      "7": 5728.77
+    },
+    "cluster_summaries": {
+      "0": {
+        "size": 332,
+        "pct_of_base": 27.7,
+        "avg_orders": 10.4,
+        "avg_order_value": 66.16,
+        "avg_items": 3.77,
+        "weekend_pct": 29.9,
+        "dinner_pct": 23.0,
+        "lunch_pct": 39.2,
+        "avg_rating": 2.77,
+        "persona_name": "Fast-Paced Office Lunchers",
+        "recommended_strategy": "Guaranteed 25-minute SLA, express combo lunch deals, corporate multi-order discounts."
+      },
+      "1": {
+        "size": 337,
+        "pct_of_base": 28.1,
+        "avg_orders": 10.2,
+        "avg_order_value": 49.28,
+        "avg_items": 2.77,
+        "weekend_pct": 29.3,
+        "dinner_pct": 24.8,
+        "lunch_pct": 36.7,
+        "avg_rating": 2.64,
+        "persona_name": "Fast-Paced Office Lunchers",
+        "recommended_strategy": "Guaranteed 25-minute SLA, express combo lunch deals, corporate multi-order discounts."
+      },
+      "2": {
+        "size": 259,
+        "pct_of_base": 21.6,
+        "avg_orders": 10.9,
+        "avg_order_value": 55.05,
+        "avg_items": 3.11,
+        "weekend_pct": 26.6,
+        "dinner_pct": 30.4,
+        "lunch_pct": 31.1,
+        "avg_rating": 3.6,
+        "persona_name": "Budget Everyday Frequent Orderers",
+        "recommended_strategy": "Loyalty rewards pass, free delivery tiers, off-peak discount coupons."
+      },
+      "3": {
+        "size": 272,
+        "pct_of_base": 22.7,
+        "avg_orders": 10.1,
+        "avg_order_value": 58.35,
+        "avg_items": 3.29,
+        "weekend_pct": 27.6,
+        "dinner_pct": 45.5,
+        "lunch_pct": 18.8,
+        "avg_rating": 2.65,
+        "persona_name": "Gourmet Dinner Connoisseurs",
+        "recommended_strategy": "VIP courier routing, priority packaging, high-margin sommelier & dessert upsells."
+      }
+    }
+  },
+  "nlp_sentiment": {
+    "total_reviews_analyzed": 4359,
+    "complaint_distribution": {
+      "Mild Turnaround Delay": 1602,
+      "Late Delivery": 1059,
+      "Minor Inconvenience": 640,
+      "None (Praise)": 631,
+      "Cold Food": 204,
+      "Missing Items": 87,
+      "Damaged Packaging": 82,
+      "Rude Courier": 54
+    },
+    "top_positive_ngrams": [
+      [
+        "arrived",
+        249
+      ],
+      [
+        "fresh",
+        162
+      ],
+      [
+        "right",
+        152
+      ],
+      [
+        "hot",
+        151
+      ],
+      [
+        "10",
+        85
+      ],
+      [
+        "10 minutes",
+        85
+      ],
+      [
+        "ahead",
+        85
+      ],
+      [
+        "ahead scheduled",
+        85
+      ]
+    ],
+    "top_negative_ngrams": [
+      [
+        "minutes",
+        854
+      ],
+      [
+        "cold",
+        598
+      ],
+      [
+        "food",
+        530
+      ],
+      [
+        "delay",
+        456
+      ],
+      [
+        "arrived",
+        432
+      ],
+      [
+        "unacceptable",
+        432
+      ],
+      [
+        "mins",
+        410
+      ],
+      [
+        "completely",
+        368
+      ]
+    ]
+  }
+}

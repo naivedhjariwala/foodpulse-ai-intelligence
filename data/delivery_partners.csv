@@ -1,0 +1,61 @@
+partner_id,name,vehicle_type,speed_factor,rating,active_hub_id
+DP_0001,Alex Smith,Motorcycle,1.34,4.63,HUB_NYC_01
+DP_0002,Marcus Vance,E-Scooter,1.31,4.86,HUB_NYC_01
+DP_0003,Aisha Vance,Motorcycle,1.36,4.97,HUB_NYC_01
+DP_0004,Alex Silva,Bicycle,1.02,4.82,HUB_NYC_01
+DP_0005,Elena Novak,E-Scooter,1.29,4.95,HUB_NYC_01
+DP_0006,Aisha Patel,Motorcycle,1.57,4.58,HUB_NYC_01
+DP_0007,Zack Novak,Motorcycle,1.57,4.92,HUB_NYC_01
+DP_0008,Chen Dubois,Bicycle,1.02,4.6,HUB_NYC_01
+DP_0009,Alex Rossi,E-Scooter,1.2,4.95,HUB_NYC_01
+DP_0010,Priya Smith,Motorcycle,1.51,4.69,HUB_NYC_01
+DP_0011,Priya Vance,E-Scooter,1.2,4.72,HUB_NYC_01
+DP_0012,Jordan Kim,E-Scooter,1.33,4.9,HUB_NYC_01
+DP_0013,Mateo Smith,Motorcycle,1.52,4.57,HUB_SF_02
+DP_0014,Zack Mendoza,Motorcycle,1.57,4.61,HUB_SF_02
+DP_0015,Liam Vance,Bicycle,1.07,4.97,HUB_SF_02
+DP_0016,Sophie Dubois,Bicycle,0.95,4.82,HUB_SF_02
+DP_0017,Priya Dubois,Electric Car,1.22,4.96,HUB_SF_02
+DP_0018,Jordan Silva,E-Scooter,1.31,4.29,HUB_SF_02
+DP_0019,Carlos Vance,Motorcycle,1.55,4.63,HUB_SF_02
+DP_0020,Jordan O'Connor,Electric Car,1.28,4.81,HUB_SF_02
+DP_0021,Sophie Kim,E-Scooter,1.25,4.54,HUB_SF_02
+DP_0022,Priya Patel,E-Scooter,1.16,4.87,HUB_SF_02
+DP_0023,Zack Vance,Motorcycle,1.53,4.9,HUB_SF_02
+DP_0024,Marcus Novak,Motorcycle,1.47,4.63,HUB_SF_02
+DP_0025,Marcus Mendoza,Motorcycle,1.42,4.51,HUB_CHI_03
+DP_0026,Sophie Novak,Bicycle,0.92,4.24,HUB_CHI_03
+DP_0027,Priya Silva,E-Scooter,1.21,4.83,HUB_CHI_03
+DP_0028,Alex Kim,E-Scooter,1.36,4.43,HUB_CHI_03
+DP_0029,Jordan Patel,Bicycle,0.96,4.94,HUB_CHI_03
+DP_0030,Mateo Kim,Electric Car,1.21,4.27,HUB_CHI_03
+DP_0031,Chen O'Connor,E-Scooter,1.26,4.96,HUB_CHI_03
+DP_0032,Sophie Mendoza,Electric Car,1.34,4.87,HUB_CHI_03
+DP_0033,Marcus Patel,E-Scooter,1.34,4.59,HUB_CHI_03
+DP_0034,Aisha Smith,Motorcycle,1.34,4.81,HUB_CHI_03
+DP_0035,Liam Dubois,Motorcycle,1.5,5.0,HUB_CHI_03
+DP_0036,Elena Rossi,Bicycle,1.09,4.71,HUB_CHI_03
+DP_0037,Jordan Silva,Bicycle,0.92,4.52,HUB_ATX_04
+DP_0038,Marcus Rossi,Electric Car,1.34,4.7,HUB_ATX_04
+DP_0039,Liam Dubois,Motorcycle,1.38,4.73,HUB_ATX_04
+DP_0040,Liam Dubois,E-Scooter,1.23,4.42,HUB_ATX_04
+DP_0041,Aisha Smith,Electric Car,1.3,4.69,HUB_ATX_04
+DP_0042,Alex Vance,Electric Car,1.31,4.5,HUB_ATX_04
+DP_0043,Aisha Smith,Motorcycle,1.34,4.84,HUB_ATX_04
+DP_0044,Priya Vance,Motorcycle,1.5,4.76,HUB_ATX_04
+DP_0045,Marcus Mendoza,E-Scooter,1.32,4.71,HUB_ATX_04
+DP_0046,Zack Smith,E-Scooter,1.16,3.92,HUB_ATX_04
+DP_0047,Marcus Novak,Electric Car,1.22,4.91,HUB_ATX_04
+DP_0048,Sophie Smith,Electric Car,1.22,4.72,HUB_ATX_04
+DP_0049,Aisha Dubois,Motorcycle,1.36,4.85,HUB_LDN_05
+DP_0050,Priya Rossi,E-Scooter,1.28,4.84,HUB_LDN_05
+DP_0051,Aisha Silva,Bicycle,0.93,4.73,HUB_LDN_05
+DP_0052,Chen Silva,Bicycle,1.03,4.97,HUB_LDN_05
+DP_0053,Priya Smith,E-Scooter,1.2,4.67,HUB_LDN_05
+DP_0054,Elena Dubois,E-Scooter,1.27,4.2,HUB_LDN_05
+DP_0055,Jordan Mendoza,Electric Car,1.3,4.64,HUB_LDN_05
+DP_0056,Aisha Rossi,Motorcycle,1.41,4.83,HUB_LDN_05
+DP_0057,Chen Novak,E-Scooter,1.21,4.92,HUB_LDN_05
+DP_0058,Aisha Dubois,E-Scooter,1.37,4.47,HUB_LDN_05
+DP_0059,Elena Novak,Bicycle,0.95,4.07,HUB_LDN_05
+DP_0060,Zack Patel,Motorcycle,1.35,4.84,HUB_LDN_05

@@ -1,0 +1,6 @@
+hub_id,hub_name,city,center_lat,center_lon,traffic_congestion_base,avg_density_score
+HUB_NYC_01,Manhattan Midtown & Downtown,New York,40.758,-73.9855,1.85,9.4
+HUB_SF_02,Financial District & SoMa,San Francisco,37.7891,-122.4014,1.65,8.7
+HUB_CHI_03,The Loop & River North,Chicago,41.8818,-87.6231,1.55,8.1
+HUB_ATX_04,Downtown & East Austin,Austin,30.2672,-97.7431,1.35,6.8
+HUB_LDN_05,City & West End,London,51.5136,-0.1165,1.75,9.1
